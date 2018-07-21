@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" android:id="@id/iconchange_manager_layout" android:background="#ffffffff" android:layout_width="fill_parent" android:layout_height="fill_parent">
+	<LinearLayout android:layout_gravity="center|top" android:orientation="vertical" android:id="@id/iconchange_icon_list_layout" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layoutDirection="ltr">
+		<LinearLayout android:orientation="horizontal" android:id="@id/iconchange_create_photo_icon_layout" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/iconchange_create_photo_icon_layout_marginTop" android:layout_marginBottom="@dimen/iconchange_create_photo_icon_layout_marginBottom" android:layoutDirection="ltr">
+			<LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/iconchange_preview_layout" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
+				<ImageView android:id="@id/iconchange_preview_icon" android:layout_width="@dimen/iconchange_layout_photo_icon_preview_size" android:layout_height="@dimen/iconchange_layout_photo_icon_preview_size" android:src="@drawable/lg_iconchange_no_image_icon" android:scaleType="centerInside" />
+				<TextView android:textSize="@dimen/iconchange_icon_text_size" android:textStyle="bold" android:textColor="@color/iconchange_font_color" android:gravity="center" android:id="@id/iconchange_preview_size" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="1.0dip" />
+			</LinearLayout>
+			<LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/iconchange_create_photo_layout" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
+				<ImageView android:id="@id/iconchange_btn_create_photo_icon" android:layout_width="@dimen/iconchange_layout_photo_icon_preview_size" android:layout_height="@dimen/iconchange_layout_photo_icon_preview_size" android:src="@drawable/lg_iconchange_btn_create_photo_icon" android:scaleType="center" android:contentDescription="@string/iconchange_btn_create_photo_icon" />
+				<TextView android:textSize="@dimen/iconchange_icon_text_size" android:textStyle="bold" android:textColor="@color/iconchange_font_color" android:gravity="center" android:id="@id/iconchange_btn_create_photo_icon_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="1.0dip" android:text="@string/iconchange_btn_create_photo_icon" />
+			</LinearLayout>
+		</LinearLayout>
+		<TextView android:textSize="@dimen/iconchange_gridview_title_text_size" android:textStyle="bold" android:textColor="#ff797979" android:gravity="center_vertical" android:id="@id/iconchange_gridview_title" android:background="#fff0f0f0" android:layout_width="fill_parent" android:layout_height="@dimen/iconchange_layout_list_title_height" android:layoutDirection="locale" android:paddingStart="12.0dip" />
+		<GridView android:gravity="center" android:id="@id/iconchange_gridview" android:paddingTop="5.0dip" android:layout_width="fill_parent" android:layout_height="0.0dip" android:listSelector="@drawable/lg_tray_grid_selector" android:verticalSpacing="@dimen/iconchange_layout_gridview_vertical_spacing" android:numColumns="5" android:layout_weight="1.0" android:layoutDirection="ltr" />
+		<TextView android:textSize="@dimen/iconchange_gridview_message_text_size" android:textColor="#ff000000" android:gravity="center" android:id="@id/iconchange_gridview_empty_message" android:padding="40.0dip" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="0.0dip" android:text="@string/iconchange_photo_icon_list_empty_message" android:layout_weight="1.0" />
+		<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true">
+			<ImageView android:layout_width="fill_parent" android:layout_height="wrap_content" android:src="?android:dividerHorizontal" android:scaleType="fitXY" />
+			<LinearLayout android:id="@id/iconchange_theme_photo_button_layout" android:layout_width="fill_parent" android:layout_height="@dimen/hig_actionbar_height" style="?android:attr/buttonBarStyle">
+				<Space android:visibility="invisible" android:layout_width="0.0dip" android:layout_height="0.0dip" android:layout_weight="1.0" />
+				<LinearLayout android:layout_width="wrap_content" android:layout_height="fill_parent" android:layoutDirection="ltr">
+					<Button android:id="@id/iconchange_icon_list_cancel" android:layout_width="wrap_content" android:layout_height="fill_parent" android:text="@string/cancel_action" style="?android:attr/buttonBarButtonStyle" />
+					<Button android:id="@id/iconchange_icon_list_ok" android:layout_width="wrap_content" android:layout_height="fill_parent" android:text="@string/rename_action" style="?android:attr/buttonBarButtonStyle" />
+				</LinearLayout>
+			</LinearLayout>
+		</LinearLayout>
+		<View android:layout_gravity="center" android:id="@id/iconchange_themelist_anchor" android:layout_width="0.0dip" android:layout_height="0.0dip" />
+	</LinearLayout>
+	<LinearLayout android:orientation="vertical" android:id="@id/iconchange_select_size_layout" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layoutDirection="locale">
+		<FrameLayout android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0">
+			<TextView android:textSize="@dimen/iconchange_select_size_desc_textsize" android:textColor="#ff000000" android:layout_gravity="start|center|top" android:id="@id/iconchange_select_size_desc" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="9.5dip" android:text="@string/iconchange_select_size_desc" android:layout_marginStart="7.299988dip" android:layout_marginEnd="7.299988dip" />
+			<com.lge.launcher3.iconchange.IconChangeSelectSizeView android:textSize="@dimen/iconchange_select_grid_text_size" android:textColor="#ff34425b" android:gravity="center" android:layout_gravity="center" android:id="@id/iconchange_select_size_grid" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+		</FrameLayout>
+		<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true">
+			<ImageView android:layout_width="fill_parent" android:layout_height="wrap_content" android:src="?android:dividerHorizontal" android:scaleType="fitXY" />
+			<LinearLayout android:id="@id/iconchange_selectsize_button_layout" android:layout_width="fill_parent" android:layout_height="@dimen/hig_actionbar_height" style="?android:attr/buttonBarStyle">
+				<Space android:visibility="invisible" android:layout_width="0.0dip" android:layout_height="0.0dip" android:layout_weight="1.0" />
+				<LinearLayout android:layout_width="wrap_content" android:layout_height="fill_parent" android:layoutDirection="ltr">
+					<Button android:id="@id/iconchange_select_size_cancel" android:layout_width="wrap_content" android:layout_height="fill_parent" android:text="@string/cancel_action" style="?android:attr/buttonBarButtonStyle" />
+					<Button android:id="@id/iconchange_select_size_ok" android:layout_width="wrap_content" android:layout_height="fill_parent" android:text="@string/rename_action" style="?android:attr/buttonBarButtonStyle" />
+				</LinearLayout>
+			</LinearLayout>
+		</LinearLayout>
+	</LinearLayout>
+	<LinearLayout android:orientation="vertical" android:id="@id/iconchange_delete_icon_layout" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="fill_parent">
+		<GridView android:id="@id/iconchange_delete_gridview" android:layout_width="fill_parent" android:layout_height="0.0dip" android:numColumns="@integer/iconchange_deleteicon_grid_columns" android:layout_weight="1.0" android:layoutDirection="ltr" />
+		<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true">
+			<ImageView android:layout_width="fill_parent" android:layout_height="wrap_content" android:src="?android:dividerHorizontal" android:scaleType="fitXY" />
+			<LinearLayout android:id="@id/iconchange_delete_button_layout" android:layout_width="fill_parent" android:layout_height="@dimen/hig_actionbar_height" style="?android:attr/buttonBarStyle">
+				<Space android:visibility="invisible" android:layout_width="0.0dip" android:layout_height="0.0dip" android:layout_weight="1.0" />
+				<LinearLayout android:layout_width="wrap_content" android:layout_height="fill_parent" android:layoutDirection="ltr">
+					<Button android:id="@id/iconchange_delete_icon_cancel" android:layout_width="wrap_content" android:layout_height="fill_parent" android:text="@string/cancel_action" style="?android:attr/buttonBarButtonStyle" />
+					<Button android:id="@id/iconchange_delete_icon_ok" android:layout_width="wrap_content" android:layout_height="fill_parent" android:text="@string/iconchange_btn_delete_icon" style="?android:attr/buttonBarButtonStyle" />
+				</LinearLayout>
+			</LinearLayout>
+		</LinearLayout>
+	</LinearLayout>
+</FrameLayout>

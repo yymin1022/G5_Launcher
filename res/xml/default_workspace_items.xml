@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<favorites xmlns:launcher="http://schemas.android.com/apk/res-auto/com.android.launcher3">
+	<appwidget packageName="com.lge.sizechangable.weather" className="com.lge.sizechangable.weather.layout.Weather5x1" screen="0" x="0" y="0" spanX="4" spanY="1" />
+	<appwidget packageName="com.google.android.googlequicksearchbox" className="com.google.android.googlequicksearchbox.SearchWidgetProvider" screen="0" x="0" y="1" spanX="4" spanY="1" />
+	<folder title="google_folder_name" screen="0" x="0" y="4" spanX="1" spanY="1">
+		<favorite packageName="com.google.android.googlequicksearchbox" className="com.google.android.googlequicksearchbox.SearchActivity" />
+		<favorite packageName="com.google.android.gm" className="com.google.android.gm.ConversationListActivityGmail" />
+		<favorite packageName="com.google.android.apps.maps" className="com.google.android.maps.MapsActivity" />
+		<favorite packageName="com.google.android.youtube" className="com.google.android.youtube.app.honeycomb.Shell$HomeActivity" />
+		<favorite packageName="com.google.android.apps.docs" className="com.google.android.apps.docs.app.NewMainProxyActivity" />
+		<favorite packageName="com.google.android.music" className="com.android.music.activitymanagement.TopLevelActivity" />
+		<favorite packageName="com.google.android.videos" className="com.google.android.youtube.videos.EntryPoint" />
+		<favorite packageName="com.google.android.talk" className="com.google.android.talk.SigningInActivity" />
+		<favorite packageName="com.google.android.apps.photos" className="com.google.android.apps.photos.home.HomeActivity" />
+		<favorite packageName="com.google.android.apps.docs.editors.docs" className="com.google.android.apps.docs.app.NewMainProxyActivity" />
+		<favorite packageName="com.google.android.gms" className="com.google.android.gms.app.settings.GoogleSettingsActivity" />
+		<favorite packageName="com.google.android.apps.docs.editors.sheets" className="com.google.android.apps.docs.app.NewMainProxyActivity" />
+		<favorite packageName="com.google.android.apps.docs.editors.slides" className="com.google.android.apps.docs.app.NewMainProxyActivity" />
+		<favorite packageName="com.google.android.googlequicksearchbox" className="com.google.android.googlequicksearchbox.VoiceSearchActivity" />
+		<favorite packageName="com.google.android.apps.walletnfcrel" className="com.google.commerce.tapandpay.android.cardlist.CardListActivity" />
+	</folder>
+	<favorite packageName="com.android.vending" className="com.android.vending.AssetBrowserActivity" screen="0" x="1" y="4" />
+	<favorite packageName="com.lge.qhelp.application" className="com.lge.qhelp.application.QHelpMain" screen="0" x="2" y="4" />
+	<favorite packageName="com.android.settings" className="com.android.settings.Settings" screen="0" x="3" y="4" />
+	<folder title="foldername_operators" screen="1" x="0" y="0" spanX="1" spanY="1">
+		<favorite packageName="com.lguplus.appstore" className="com.lguplus.appstore.StoreMain" />
+		<favorite packageName="kr.co.mobine.gameStore" className="kr.co.mobine.gameStore.MainActivity" />
+		<favorite packageName="com.mnsoft.lgunavi" className="com.mnsoft.offboardnavi.intro.IntroActivity" />
+		<favorite packageName="com.lgu.app.appbundle" className="com.lgu.app.appbundle.LoadingPage" />
+		<favorite packageName="com.lguplus.uplusshopping" className="com.lguplus.uplusshopping.UpdateCheck" />
+		<favorite packageName="com.uplus.baseballhdtv" className="com.uplus.baseballhdtv.MainActivity" />
+		<favorite packageName="lg.uplusbox" className="lg.uplusbox.TitleActivity" />
+		<favorite packageName="com.lguplus.pluscamera" className="com.lguplus.pluscamera.ui.splash.IndexActivity" />
+		<favorite packageName="com.uplus.onphone" className="com.uplus.onphone.page.LoadingPage" />
+		<favorite packageName="com.lguplus.vpa" className="com.lguplus.vpa.pan.initialsetting.InitialLoading" />
+		<favorite packageName="com.uplus.ipagent" className="com.uplus.ipagent.install.EntryActivity" />
+		<favorite packageName="com.lguplus.mobile.cs" className="com.lguplus.mobile.cs.activity.MainActivity" />
+		<favorite packageName="com.lgu" className="com.lgu.page.LoadingPage" />
+		<favorite packageName="com.lguplus.usimsvcm" className="com.lguplus.usimsvcm.ui.RootActivity" />
+		<favorite packageName="com.uplus.movielte" className="com.uplus.movielte.Page.MainActivity" />
+		<favorite packageName="com.mnet.app" className="com.mnet.app.InitApp" />
+		<favorite packageName="com.lguplus.ptt.android" className="com.lguplus.ptt.ui.activity.Intro" />
+		<favorite packageName="com.lguplus.paynow" className="com.lguplus.paynow.MainActivity" />
+	</folder>
+	<folder title="foldername_tools" screen="1" x="1" y="0" spanX="1" spanY="1">
+		<favorite packageName="com.lge.filemanager" className="com.lge.filemanager.view.LaunchActivity" />
+		<favorite packageName="com.lge.clock" className="com.lge.clock.AlarmClockActivity" />
+		<favorite packageName="com.android.calculator2" className="com.android.calculator2.Calculator" />
+		<favorite packageName="com.android.calendar" className="com.android.calendar.LaunchTasksActivity" />
+		<favorite packageName="com.lge.tdmb" className="com.lge.tdmb.TdmbStartActivity" />
+		<favorite packageName="com.lge.voicerecorder" className="com.lge.voicerecorder.LaunchVoiceRecorder" />
+		<favorite packageName="com.lge.fmradio" className="com.lge.fmradio.IntroActivity" />
+		<favorite packageName="com.android.providers.downloads.ui" className="com.android.providers.downloads.ui.DownloadList" />
+		<favorite packageName="com.android.cellbroadcastreceiver" className="com.android.cellbroadcastreceiver.CellBroadcastListActivity" />
+	</folder>
+	<folder title="lg_folder_name" screen="1" x="2" y="0" spanX="1" spanY="1">
+		<favorite packageName="com.android.contacts" className="com.android.contacts.activities.PeopleActivity" />
+		<favorite packageName="com.android.calendar" className="com.android.calendar.AllInOneActivity" />
+		<favorite packageName="com.lge.music" className="com.lge.music.MusicBrowserActivity" />
+		<favorite packageName="com.lge.email" className="com.lge.email.ui.setupwizard.Welcome" />
+		<favorite packageName="com.lge.qremote" className="com.lge.qremote.ui.QRemoteMainActivity" />
+		<favorite packageName="com.lge.lgworld" className="com.lge.lgworld.ui.activity.MainActivity" />
+		<favorite packageName="com.lge.lggiftpack" className="com.lge.lggiftpack.IntroActivity" />
+	</folder>
+	<folder title="foldername_management" screen="1" x="3" y="0" spanX="1" spanY="1">
+		<favorite packageName="com.lge.phonemanagement" className="com.lge.phonemanagement.ui.MainActivity" />
+		<favorite packageName="com.android.settings" className="com.android.settings.Settings$BatterySaverSettingsActivity" />
+		<favorite packageName="com.android.settings" className="com.android.settings.Settings$PowerSaveBatteryDetailActivity" />
+		<favorite packageName="com.android.settings" className="com.android.settings.Settings$RunningServicesActivity" />
+		<favorite packageName="com.android.settings" className="com.android.settings.Settings$StorageSettingsActivity" />
+		<favorite packageName="com.lge.bnr.launcher" className="com.lge.bnr.launcher.BNRLauncherActivity" />
+		<favorite packageName="com.wsandroid.suite.lge" className="com.mcafee.app.LauncherDelegateActivity" />
+		<favorite packageName="com.rsupport.rs.activity.lge.allinone" className="com.rsupport.rs.activity.edit.IntroActivity" />
+		<favorite packageName="com.lg.apps.centerapp" className="com.lg.apps.centerapp.CenterAppActivity" />
+	</folder>
+	<folder title="foldername_recommended_apps" screen="1" x="0" y="1" spanX="1" spanY="1">
+		<favorite packageName="com.evernote" className="com.evernote.ui.HomeActivity" />
+		<favorite packageName="com.facebook.katana" className="com.facebook.katana.LoginActivity" />
+		<favorite packageName="com.instagram.android" className="com.instagram.android.activity.MainTabActivity" />
+	</folder>
+	<favorite packageName="com.android.calendar" className="com.android.calendar.AllInOneActivity" screen="1" x="1" y="1" />
+	<favorite packageName="com.lge.qmemoplus" className="com.lge.qmemoplus.ui.main.MainActivity" screen="1" x="0" y="2" />
+	<favorite packageName="com.lge.lifetracker" className="com.lge.lifetracker.ui.MainActivity" screen="1" x="1" y="2" />
+	<favorite packageName="com.lge.friendsmanager" className="com.lge.friendsmanager.FriendsManagerMainActivity" screen="1" x="2" y="2" />
+	<favorite packageName="com.lge.launcher3" className="com.lge.launcher3.recentuninstall.RUActivity" screen="1" x="3" y="2" />
+	<favorite packageName="com.android.contacts" className="com.android.contacts.activities.DialtactsActivity" container="-101" screen="0" x="0" y="0" />
+	<favorite packageName="com.android.mms" className="com.android.mms.ui.ConversationList" container="-101" screen="1" x="1" y="0" />
+	<favorite packageName="com.lge.camera" className="com.lge.camera.CameraAppLauncher" container="-101" screen="2" x="2" y="0" />
+	<favorite packageName="com.android.gallery3d" className="com.android.gallery3d.app.Gallery" container="-101" screen="3" x="3" y="0" />
+	<favorite packageName="com.android.chrome" className="com.google.android.apps.chrome.Main" container="-101" screen="4" x="4" y="0" />
+</favorites>

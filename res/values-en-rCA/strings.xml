@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<string name="activity_not_found">Application is not installed.</string>
+<string name="long_press_widget_to_add">Touch and hold a widget to add it to Homescreen.</string>
+<string name="out_of_space">No more room on this Home screen</string>
+<string name="permlab_install_shortcut">Install shortcuts</string>
+<string name="permdesc_install_shortcut">Allows an application to add shortcuts without user intervention.</string>
+<string name="permdesc_read_settings">Allows an application to read the settings and shortcuts in Home.</string>
+<string name="permdesc_write_settings">Allows an application to change the settings and shortcuts in Home.</string>
+<string name="uninstall_system_app_text">This is a system application and cannot be uninstalled.</string>
+<string name="folder_hint_text">Unnamed folder</string>
+<string name="workspace_scroll_format">Workspace %1$d of %2$d</string>
+<string name="smartbulletin_exceed_limited_number">Up to %d categories can be selected.</string>
+<string name="sp_overflow_textsize_max_NORMAL">Cannot enter more letters.</string>
+<string name="sp_lgfolder_color_orange_NORMAL">Orange</string>
+<string name="sp_lgfolder_color_pink_NORMAL">Pink</string>
+<string name="sp_backup_NORMAL">Home backup</string>
+<string name="sp_restore_NORMAL">Home restore</string>
+<string name="sp_load_successful_NORMAL">Restore complete</string>
+<string name="sp_export_successful_ics_NORMAL">Backup complete</string>
+<string name="sp_homesettings_category_layout_NORMAL">Layout</string>
+<string name="sp_wallpaper_changed_NORMAL">Wallpaper has been changed.</string>
+<string name="sp_shortcut_install">\"%s\" shortcut created.</string>
+<string name="memory_full_msg_shortage">Not enough space on internal storage</string>
+<string name="sp_plushome_setting_select_item_selected">selected</string>
+<string name="dynamic_grid_popup_help">Select the grid size to show more or less on the Home Screen.</string>
+<string name="yes_ok">OK</string>
+<string name="iconchange_select_size_desc">Drag the right bottom corner of the icon to resize it on the Home screen.</string>
+<string name="foldername_recommended_apps">Recommended</string>
+<string name="talkback_grid_locate_folder">Line %1$d, Row %2$d</string>
+<string name="sp_moved_NORMAL">Moved</string>
+<string name="talkback_remove_message">Double tap to remove.</string>
+<string name="talkback_uninstall_message">Double tap to uninstall.</string>
+<string name="initial_guide_desc_experience_the_ux5_home_screen_2">The Home screen and apps list are now unified.</string>
+<string name="initial_guide_desc_experience_the_ux5_home_screen_2_sub2">To search for an app, use Google search.</string>
+<string name="initial_guide_desc_back_to_the_ux4_home_screen_mod_1">You can go back to the UX 4.0 Home screen to use the apps list. Select the Home &amp; app drawer in Home screen settings > Select Home.</string>
+<string name="sp_hometip_title_customize_favorite">Customise the Favourites Tray icons</string>
+<string name="sp_hometip_desc_customize_favorite">You can rearrange or add apps to your Favourites Tray by touching and holding an icon and dragging it to where you want it.</string>
+<string name="sp_hometip_title_createfolder_rename">Create and edit folders</string>
+<string name="sp_hometip_desc_create_folder_vzw">Create a folder by dragging one icon on top of another. To rename the folder or change its color, open it and tap the folder name. Tap + to add apps to folder.</string>
+<string name="sp_hometip_title_returntohome">Return to Home screen</string>
+<string name="sp_hometip_homescreen_settings_helpmenu_PrDtablet">To get additional help or tips about using your tablet, refer to the Help app.</string>
+<string name="sp_hometip_homescreen_settings_helpmenu_PrDdefault">To get additional help or tips about using your phone, refer to the Help app.</string>
+<string name="initial_guide_desc_apps_on_the_home_screen_att_PrDtablet">You can explore all your apps on the Home screens by swiping. To find an app, use Google search or sort your apps by name.</string>
+<string name="initial_guide_desc_apps_on_the_home_screen_att_PrDdefault">"You can explore all your apps on the Home screens by swiping. To find an app, use Google search or sort your apps by name.
+In the Home screen settings, you can change the grid size to change how many apps are on a Home screen."</string>
+<string name="recently_uninstalled_close">Later</string>
+<string name="hide_apps_setting_title">Hide apps</string>
+<string name="sp_lgmdm_restrict_feature_NORMAL">Restricted by device administrator</string>
+</resources>

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:gravity="end|center" android:layout_gravity="end|center" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginEnd="16.0dip">
+	<TextView android:textSize="@dimen/hide_apps_title_sub" android:textColor="?android:textColorPrimary" android:ellipsize="marquee" android:gravity="start|center" android:id="@id/hide_apps_count_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="0/100" android:singleLine="true" android:layerType="none" />
+</LinearLayout>

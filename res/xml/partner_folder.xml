@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<folder title="@string/partner_folder_title">
+	<favorite packageName="com.android.chrome" className="com.google.android.apps.chrome.Main" />
+	<favorite packageName="com.google.android.gm" className="com.google.android.gm.ConversationListActivityGmail" />
+	<favorite packageName="com.google.android.apps.plus" className="com.google.android.apps.plus.phone.HomeActivity" />
+	<favorite packageName="com.google.android.apps.maps" className="com.google.android.maps.MapsActivity" />
+	<favorite packageName="com.google.android.music" className="com.android.music.activitymanagement.TopLevelActivity" />
+	<favorite packageName="com.google.android.videos" className="com.google.android.youtube.videos.EntryPoint" />
+	<favorite packageName="com.google.android.apps.books" className="com.google.android.apps.books.app.BooksActivity" />
+	<favorite packageName="com.google.android.apps.magazines" className="com.google.apps.dots.android.app.activity.CurrentsStartActivity" />
+	<favorite packageName="com.google.android.play.games" className="com.google.android.gms.games.ui.destination.main.MainActivity" />
+	<favorite packageName="com.google.android.apps.docs" className="com.google.android.apps.docs.app.NewMainProxyActivity" />
+	<favorite packageName="com.google.android.youtube" className="com.google.android.youtube.app.honeycomb.Shell$HomeActivity" />
+	<favorite packageName="com.google.android.apps.plus" className="com.google.android.apps.plus.phone.ConversationListActivity" />
+	<favorite packageName="com.google.android.talk" className="com.google.android.talk.SigningInActivity" />
+	<favorite packageName="com.google.android.apps.docs.editors.docs" className="com.google.android.apps.docs.app.NewMainProxyActivity" />
+	<favorite packageName="com.google.android.apps.docs.editors.sheets" className="com.google.android.apps.docs.app.NewMainProxyActivity" />
+	<favorite packageName="com.google.android.apps.docs.editors.slides" className="com.google.android.apps.docs.app.NewMainProxyActivity" />
+</folder>

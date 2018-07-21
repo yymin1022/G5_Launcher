@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<array name="lg_exclude_apps" />
+<string-array name="data_popup_packages_tlf"><item>com.android.browser</item><item>com.android.email</item><item>com.lge.lgworld</item><item>com.google.android.gm</item><item>com.google.android.googlequicksearchbox</item><item>com.google.android.apps.maps</item><item>com.android.vending</item><item>com.google.android.apps.genie.geniewidget</item><item>com.google.android.talk</item><item>com.google.android.voicesearch</item><item>com.google.android.youtube</item><item>com.lge.tlfurl</item><item>es.telefonica.android.mstore</item><item>com.google.android.apps.plus</item><item>com.rsupport.rs.activity.lge</item><item>com.android.chrome</item><item>com.lge.telefonica.sports</item><item>com.lge.telefonica.emotion</item><item>com.lge.telefonica.musiclink</item><item>com.lge.telefonica.gamelink</item><item>com.herocraft.game.farmfrenzy.telefonica</item><item>com.gameloft.android.GloftPSHF</item><item>com.gameloft.android.GloftLCEF</item><item>imagenio.movil.tv</item><item>com.movistar.android.mimovistar.es</item><item>com.tuenti.messenger</item><item>com.google.android.play.games</item><item>com.lge.sizechangable.weather</item><item>com.movistar.recomienda</item><item>com.dhr.spotify.launcher</item><item>com.lge.ims.rcsim</item><item>com.lge.email</item><item>com.evernote</item><item>com.jvnewco.yaapmoney</item><item>com.yaap.yaapshopping</item><item>com.gameloft.android.GloftGF2H</item><item>com.herocraft.game.birdsonwire.telefonica</item><item>com.herocraft.game.wonderwood</item></string-array>
+<string-array name="data_popup_packages_vdf"><item>com.android.browser</item><item>com.android.chrome</item><item>com.vodafone.android.myweb.launcher</item><item>com.google.android.googlequicksearchbox</item></string-array>
+<string-array name="screen_effect"><item>@string/menu_screen_effect_basic</item><item>@string/menu_screen_effect_breeze</item><item>@string/menu_screen_effect_panorama</item><item>@string/menu_screen_effect_carousel</item></string-array>
+<string-array name="config_feature_default_theme"><item>com.lge.launcher2.theme.optimus</item></string-array>
+<array name="config_initial_guide_custom_pagelist" />
+<string-array name="config_restore_filtering_actions"><item>com.android.contacts.action.SHORTCUT_CONTACT</item><item>android.provider.action.QUICK_CONTACT</item></string-array>
+<string-array name="config_dynamic_grid_preset"><item>4x4</item><item>4x5</item><item>5x5</item></string-array>
+<string-array name="lg_folder_color_list"><item>@string/sp_talk_back_white_btn</item><item>@string/sp_blue_NORMAL</item><item>@string/sp_lgfolder_color_skyblue_NORMAL</item><item>@string/sp_vutalk_talk_back_ivory_button</item><item>@string/sp_talk_back_blue_violet_btn</item><item>@string/sp_lgfolder_color_orange_NORMAL</item><item>@string/sp_pale_pink_NORMAL</item><item>@string/sp_lgfolder_color_green_NORMAL</item><item>@string/sp_lgfolder_color_beige_NORMAL</item><item>@string/sp_lgfolder_color_pink_NORMAL</item><item>@string/sp_talk_back_dark_blue_btn</item><item>@string/sp_lgfolder_color_gray_NORMAL</item></string-array>
+<array name="extra_wallpapers" />
+<array name="operator_wallpapers" />
+<array name="smartbulletin_default_bg_colors"><item>@color/smartbulletin_default_bg_color_01</item><item>@color/smartbulletin_default_bg_color_02</item></array>
+<array name="smartbulletin_default_title_colors"><item>@color/smartbulletin_default_title_color_01</item><item>@color/smartbulletin_default_title_color_02</item></array>
+<string-array name="vpl_apps"><item>com.synchronoss.dcs.att.r2g</item><item>com.att.android.attsmartwifi</item><item>com.locationlabs.cni.att</item></string-array>
+<string-array name="wallpaper_order_apps"><item>com.lge.launcher3</item><item>com.android.gallery3d</item><item>com.android.wallpaper.livepicker</item><item>com.google.android.apps.photos</item></string-array>
+<array name="widget_blur_apps" />
+<array name="workspaceca" />
+</resources>

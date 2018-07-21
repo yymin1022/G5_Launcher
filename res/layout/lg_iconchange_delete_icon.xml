@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" android:padding="@dimen/delete_icon_checkbox_padding" android:layout_width="wrap_content" android:layout_height="wrap_content" android:foregroundGravity="center|left|top">
+	<com.lge.launcher3.iconchange.IconChangeThumbnailView android:layout_gravity="center" android:id="@id/iconchange_photo_icon" android:background="@color/iconchange_thumnail_bg_color" android:layout_width="@dimen/app_icon_size" android:layout_height="@dimen/app_icon_size" android:scaleType="centerInside" />
+</FrameLayout>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<integer name="hide_apps_setting_grid_columns">7</integer>
+<integer name="device_profile_default_numRows">5</integer>
+<integer name="device_profile_default_numColumns">7</integer>
+<integer name="device_profile_numFolderRows">4</integer>
+<integer name="device_profile_numFolderColumns">4</integer>
+</resources>

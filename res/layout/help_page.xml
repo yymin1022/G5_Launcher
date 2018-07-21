@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<com.lge.launcher3.help.HelpPageLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+	<ScrollView android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="1.0">
+		<LinearLayout android:orientation="vertical" android:id="@id/information_layout" android:paddingTop="@dimen/help_title_top_padding" android:layout_width="fill_parent" android:layout_height="fill_parent" android:paddingStart="@dimen/help_side_padding" android:paddingEnd="@dimen/help_side_padding">
+			<TextView android:id="@id/initial_guide_page_title" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/help_title_desc_space_padding" style="@style/help_title_font" />
+			<ImageView android:id="@id/initial_guide_page_image" android:layout_width="fill_parent" android:layout_height="190.0dip" android:layout_marginBottom="@dimen/help_img_desc_space_padding" />
+			<LinearLayout android:gravity="center_vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingEnd="?android:listPreferredItemPaddingEnd">
+				<LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="2.0dip" android:layout_marginBottom="0.5dip" android:layout_weight="1.0" android:layout_marginStart="@dimen/help_guide_padding_size" android:layout_marginEnd="@dimen/help_guide_padding_size">
+					<TextView android:textAppearance="?android:textAppearanceMedium" android:id="@id/initial_guide_page_desc" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+					<LinearLayout android:orientation="vertical" android:id="@id/help_desc_sub_layout" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+				</LinearLayout>
+			</LinearLayout>
+		</LinearLayout>
+	</ScrollView>
+</com.lge.launcher3.help.HelpPageLayout>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="48.0dip">
+	<ImageView android:id="@id/app_icon" android:layout_width="24.0dip" android:layout_height="24.0dip" android:src="@mipmap/ic_launcher_home" android:layout_marginStart="16.0dip" android:layout_marginEnd="16.0dip" />
+	<TextView android:textSize="@dimen/recent_uninstall_app_list_txt_size" android:id="@id/app_name" android:layout_width="0.0dip" android:layout_height="wrap_content" android:singleLine="true" android:layout_weight="1.0" android:textAlignment="viewStart" />
+	<FrameLayout android:gravity="end|center" android:layout_width="wrap_content" android:layout_height="wrap_content">
+		<Button android:textSize="@dimen/recent_uninstall_app_list_txt_size" android:layout_gravity="center" android:id="@id/reinstall_button" android:layout_width="wrap_content" android:layout_height="wrap_content" android:minWidth="64.0dip" android:minHeight="36.0dip" android:text="@string/recently_uninstalled_reinstall_btn_text" android:contentDescription="@string/recently_uninstalled_reinstall_btn_text" android:layout_marginStart="12.0dip" android:layout_marginEnd="12.0dip" />
+	</FrameLayout>
+</LinearLayout>

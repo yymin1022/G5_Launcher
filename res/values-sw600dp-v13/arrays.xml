@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<string-array name="config_dynamic_grid_preset"><item>5x5</item><item>5x6</item><item>6x6</item></string-array>
+</resources>

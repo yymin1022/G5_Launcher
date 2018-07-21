@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<dimen name="appnotifier_font_size">14.399994dip</dimen>
+<dimen name="appnotifier_badge_size">25.799988dip</dimen>
+<dimen name="appnotifier_font_padding_top">4.0dip</dimen>
+<item type="dimen" name="device_profile_minWidthDps">1093.0</item>
+<item type="dimen" name="device_profile_minHeightDps">1813.0</item>
+<item type="dimen" name="device_profile_iconSize">72.0</item>
+<dimen name="device_profile_iconTextSize">17.329987sp</dimen>
+<item type="dimen" name="device_profile_numHotseatIcons">8.0</item>
+<item type="dimen" name="device_profile_hotseatIconSize">72.0</item>
+<item type="dimen" name="lg_widget_padding_ratio">0.8</item>
+<dimen name="overview_item_text_size">15.329987dip</dimen>
+<dimen name="overview_item_width">100.0dip</dimen>
+<dimen name="dynamic_grid_workspace_page_spacing">30.0dip</dimen>
+<dimen name="dynamic_grid_overview_bar_item_width">150.0dip</dimen>
+<dimen name="widget_title_text_size">17.329987dip</dimen>
+<dimen name="widget_name_dim_text_size">17.329987dip</dimen>
+<dimen name="widget_preview_label_horizontal_padding">4.0dip</dimen>
+<dimen name="widget_preview_horizontal_padding">10.0dip</dimen>
+<dimen name="folder_title_text_size">17.329987dip</dimen>
+<dimen name="checkable_app_icon_size">72.0dip</dimen>
+</resources>

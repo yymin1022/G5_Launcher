@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<integer name="config_flingToDeleteMinVelocity">-1000</integer>
+<integer name="hide_apps_setting_grid_columns">5</integer>
+<integer name="device_profile_default_numRows">6</integer>
+<integer name="device_profile_default_numColumns">6</integer>
+<integer name="device_profile_numFolderRows">4</integer>
+<integer name="device_profile_numFolderColumns">4</integer>
+<integer name="device_profile_minAllAppsPredictionColumns">4</integer>
+<integer name="widget_tray_row">4</integer>
+<integer name="widget_tray_col">2</integer>
+</resources>

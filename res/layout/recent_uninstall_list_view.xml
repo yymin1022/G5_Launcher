@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+	<TextView android:textSize="@dimen/recent_uninstall_app_desc_txt_size" android:textColor="@color/list_separator_text_color" android:gravity="center_vertical" android:id="@id/recent_uninstall_desc" android:background="@color/list_separator_background_color" android:paddingTop="5.0dip" android:paddingBottom="5.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="38.0dip" android:text="@string/recently_uninstalled_desc" android:paddingStart="20.0dip" android:paddingEnd="20.0dip" />
+	<TextView android:gravity="center" android:id="@id/recent_uninstall_no_apps_message" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="@string/recently_uninstalled_no_apps_message" />
+	<ListView android:id="@id/recent_unisntall_list" android:layout_width="fill_parent" android:layout_height="0.0dip" android:drawSelectorOnTop="false" android:layout_weight="1.0" />
+</LinearLayout>

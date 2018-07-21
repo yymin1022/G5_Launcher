@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<provider_list>
+	<provider>
+		<package_name>com.lge.lifetracker\u0009		</package_name>
+		<class_name>com.lge.lifetracker.widgets.SmartWidgetProvider\u0009		</class_name>
+		<enable>true\u0009		</enable>
+	</provider>
+	<provider>
+		<package_name>com.android.calendar\u0009		</package_name>
+		<class_name>com.android.calendar.widget.myschedule.MyScheduleWidgetProvider\u0009		</class_name>
+		<enable>true\u0009		</enable>
+	</provider>
+	<provider>
+		<package_name>com.lge.sizechangable.musicwidget.widget\u0009		</package_name>
+		<class_name>com.lge.sizechangable.musicwidget.widget.MusicAppWidgetProvider4x2\u0009		</class_name>
+		<enable>true\u0009		</enable>
+	</provider>
+	<provider>
+		<package_name>com.lge.iftttmanager\u0009		</package_name>
+		<class_name>com.lge.iftttmanager.ui.widget.SmartSettingWidgetProvider\u0009		</class_name>
+		<enable>true\u0009		</enable>
+	</provider>
+	<provider>
+		<package_name>com.lge.qremote\u0009		</package_name>
+		<class_name>com.lge.qremote.appwidget.RemoteAppWidgetProvider\u0009		</class_name>
+		<enable>true\u0009		</enable>
+	</provider>
+	<provider>
+		<package_name>com.lge.doyouknow\u0009		</package_name>
+		<class_name>com.lge.doyouknow.widget.STWidgetProvider\u0009		</class_name>
+		<enable>true\u0009		</enable>
+	</provider>
+	<provider>
+		<package_name>com.lge.lggiftpack\u0009		</package_name>
+		<class_name>com.lge.lggiftpack.smartbulletin.CardProvider\u0009		</class_name>
+		<enable>true\u0009		</enable>
+	</provider>
+</provider_list>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<provider_list>
+	<provider>
+		<package_name>com.lguplus.vpa\u0009		</package_name>
+		<class_name>com.lguplus.vpa.smartmorning.SmartMorningHomeScreenDummy\u0009		</class_name>
+	</provider>
+	<provider>
+		<package_name>com.skplanet.nfc.smarttouch\u0009		</package_name>
+		<class_name>com.skplanet.nfc.smarttouch.widget.STWidgetMain\u0009		</class_name>
+	</provider>
+</provider_list>

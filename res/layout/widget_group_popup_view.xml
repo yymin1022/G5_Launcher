@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:background="@drawable/group_widget_item_shape" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="6.0dip" android:paddingStart="4.0dip" android:paddingEnd="4.0dip">
+	<TextView android:gravity="center_vertical" android:layout_gravity="start" android:id="@id/widget_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:paddingStart="6.0dip" android:paddingEnd="6.0dip" style="@style/GroupWidgetTitle" />
+	<GridView android:theme="@style/Theme.Dark.CustomOverscroll" android:scrollbarThumbVertical="@drawable/group_widget_scrollbar" android:orientation="horizontal" android:id="@id/group_widget_grid" android:layout_width="fill_parent" android:layout_height="fill_parent" android:horizontalSpacing="@dimen/group_widget_container_margin" android:verticalSpacing="@dimen/group_widget_container_margin" android:numColumns="@integer/group_widget_popup_column" />
+</LinearLayout>

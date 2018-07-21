@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+	<ListView android:id="@id/recent_unisntall_list" android:layout_width="fill_parent" android:layout_height="0.0dip" android:drawSelectorOnTop="false" android:layout_weight="1.0" />
+	<ImageView android:background="?android:listDivider" android:layout_width="fill_parent" android:layout_height="wrap_content" android:scaleType="fitXY" android:contentDescription="@null" />
+	<LinearLayout android:layout_width="fill_parent" android:layout_height="wrap_content" style="?android:attr/buttonBarStyle">
+		<Space android:visibility="invisible" android:layout_width="0.0dip" android:layout_height="0.0dip" android:layout_weight="1.0" />
+		<Button android:id="@id/cancel_btn" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@android:string/cancel" style="?android:attr/buttonBarButtonStyle" />
+		<Button android:id="@id/uninstall_btn" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/droptarget_popup_uninstall" style="?android:attr/buttonBarButtonStyle" />
+	</LinearLayout>
+</LinearLayout>

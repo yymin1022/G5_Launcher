@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:orientation="vertical" android:id="@id/header" android:layout_width="fill_parent" android:layout_height="@dimen/smartbulletin_header_height">
+	<FrameLayout android:paddingTop="@dimen/smartbulletin_statusbar_height" android:layout_width="fill_parent" android:layout_height="wrap_content">
+		<TextView android:gravity="center_vertical" android:id="@id/header_title" android:background="@drawable/focusable_view_bg" android:focusable="true" android:layout_width="wrap_content" android:layout_height="@dimen/smartbulletin_actionbar_height" android:text="@string/smartbulletin" android:paddingStart="@dimen/smartbulletin_header_title_padding" android:paddingEnd="@dimen/smartbulletin_noti_count_padding" style="@style/smart_bulletin_title_bar_1line" />
+		<ImageButton android:gravity="center_vertical" android:layout_gravity="end" android:id="@id/setting_button" android:background="@drawable/focusable_view_bg" android:focusable="true" android:layout_width="@dimen/smartbulletin_actionbar_height" android:layout_height="@dimen/smartbulletin_actionbar_height" android:src="@drawable/smartbulletin_ic_menu_settings" android:contentDescription="@string/smartbulletin_settings" />
+	</FrameLayout>
+</LinearLayout>

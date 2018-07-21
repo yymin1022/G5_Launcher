@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<com.lge.launcher3.widgettray.LGWidgetCell xmlns:android="http://schemas.android.com/apk/res/android" xmlns:launcher="http://schemas.android.com/apk/res-auto" android:layout_gravity="fill" android:orientation="vertical" android:background="@drawable/widget_item_focused_bg" android:paddingBottom="@dimen/widget_section_vertical_padding" android:focusable="true" android:layout_width="0.0dip" android:layout_height="0.0dip" android:layout_margin="3.0dip" android:paddingStart="@dimen/widget_section_horizontal_padding" android:layout_rowWeight="1.0" android:layout_columnWeight="1.0">
+	<LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+		<LinearLayout android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" android:paddingStart="@dimen/widget_preview_label_horizontal_padding" android:paddingEnd="@dimen/widget_preview_label_horizontal_padding">
+			<TextView android:textSize="@dimen/widget_name_dim_text_size" android:textColor="@color/widgets_view_item_text_color" android:ellipsize="end" android:id="@id/widget_name" android:fadingEdge="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" android:shadowColor="#b0000000" android:shadowRadius="2.0" />
+			<TextView android:textSize="@dimen/widget_name_dim_text_size" android:textColor="@color/widgets_view_item_text_color" android:id="@id/widget_dims" android:layout_width="wrap_content" android:layout_height="wrap_content" android:shadowColor="#b0000000" android:shadowRadius="2.0" />
+		</LinearLayout>
+		<ImageView android:id="@id/widget_group_btn" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/btn_homescreen_enlarged_ink_normal" android:paddingEnd="@dimen/group_widget_container_margin" />
+	</LinearLayout>
+	<FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent" android:paddingEnd="@dimen/widget_section_horizontal_padding">
+		<com.lge.launcher3.widgettray.WidgetsImageView android:id="@id/widget_preview" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/widget_preview_padding" />
+		<LinearLayout android:orientation="vertical" android:id="@id/widget_group_preview" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="@dimen/widget_preview_padding">
+			<LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0">
+				<com.lge.launcher3.widgettray.GroupItemPreview android:id="@id/widget_preview0" style="@style/GroupWidgetPreview" />
+				<com.lge.launcher3.widgettray.GroupItemPreview android:id="@id/widget_preview1" style="@style/GroupWidgetPreview" />
+			</LinearLayout>
+			<LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0">
+				<com.lge.launcher3.widgettray.GroupItemPreview android:id="@id/widget_preview2" style="@style/GroupWidgetPreview" />
+				<com.lge.launcher3.widgettray.GroupItemPreview android:id="@id/widget_preview3" style="@style/GroupWidgetPreview" />
+			</LinearLayout>
+		</LinearLayout>
+		<TextView android:layout_gravity="end|bottom|center" android:id="@id/widget_preview_debug_text" android:background="#6600ff00" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+		<ImageView android:layout_gravity="end|center|top" android:id="@id/widget_uninstall" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/btn_homescreen_close_normal" />
+	</FrameLayout>
+</com.lge.launcher3.widgettray.LGWidgetCell>

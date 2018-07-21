@@ -1,0 +1,273 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" android:versionCode="530012999" android:versionName="5.30.12.port.by.lr" package="com.lge.launcher3" platformBuildVersionCode="25" platformBuildVersionName="7.1.1">
+	<uses-sdk android:minSdkVersion="21" android:targetSdkVersion="24" />
+	<permission android:description="@string/permdesc_install_shortcut" android:label="@string/permlab_install_shortcut" android:name="com.android.launcher.permission.INSTALL_SHORTCUT" android:permissionGroup="android.permission-group.SYSTEM_TOOLS" android:protectionLevel="dangerous" />
+	<permission android:description="@string/permdesc_read_settings" android:label="@string/permlab_read_settings" android:name="com.lge.launcher3.permission.READ_SETTINGS" android:permissionGroup="android.permission-group.SYSTEM_TOOLS" android:protectionLevel="normal" />
+	<permission android:description="@string/permdesc_write_settings" android:label="@string/permlab_write_settings" android:name="com.lge.launcher3.permission.WRITE_SETTINGS" android:permissionGroup="android.permission-group.SYSTEM_TOOLS" android:protectionLevel="signatureOrSystem" />
+	<permission android:name="com.lge.launcher3.permission.RECEIVE_LAUNCH_BROADCASTS" android:protectionLevel="signature" />
+	<permission android:name="com.lge.launcher3.permission.RECEIVE_FIRST_LOAD_BROADCAST" android:protectionLevel="signatureOrSystem" />
+	<permission-group android:description="@string/permgroupdesc_sprint_extension" android:label="@string/permgrouplab_sprint_extension" android:name="com.sprint.internal.permission-group.SPRINT-EXTENSION" />
+	<permission android:description="@string/permdesc_sprint_id_launcher_facade" android:label="@string/permlab_sprint_id_launcher_facade" android:name="com.sprint.internal.id.permission.LAUNCHERFACADE2" android:permissionGroup="com.sprint.internal.permission-group.SPRINT-EXTENSION" android:protectionLevel="signatureOrSystem" />
+	<permission android:name="com.lge.launcher3.permission.DELETE_DIALOG" android:protectionLevel="signatureOrSystem" />
+	<permission android:name="com.lge.launcher.permission.CUSTOMIZE_APPICONS2" android:permissionGroup="android.permission-group.SYSTEM_TOOLS" android:protectionLevel="signatureOrSystem" />
+	<uses-permission android:name="com.lge.formmanager.permission.READ_FORMS_TABLE" />
+	<uses-permission android:name="com.lge.sizechangable.weather.platform.permission.USE_WEATHER_INFO" />
+	<uses-permission android:name="android.permission.READ_SETTINGS" />
+	<uses-permission android:name="android.permission.WRITE_SETTINGS" />
+	<uses-permission android:name="android.permission.WRITE_SECURE_SETTINGS" />
+	<uses-permission android:name="android.permission.MANAGE_USERS" />
+	<uses-permission android:name="android.permission.INTERACT_ACROSS_USERS" />
+	<uses-permission android:name="android.permission.INTERACT_ACROSS_USERS_FULL" />
+	<uses-permission android:name="android.permission.CALL_PRIVILEGED" />
+	<uses-permission android:name="android.permission.CALL_PHONE" />
+	<uses-permission android:name="android.permission.SET_WALLPAPER" />
+	<uses-permission android:name="android.permission.SET_WALLPAPER_HINTS" />
+	<uses-permission android:name="android.permission.VIBRATE" />
+	<uses-permission android:name="android.permission.BIND_APPWIDGET" />
+	<uses-permission android:name="android.permission.GET_ACCOUNTS" />
+	<uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+	<uses-permission android:name="android.permission.BROADCAST_STICKY" />
+	<uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+	<uses-permission android:name="com.lge.launcher3.permission.READ_SETTINGS" />
+	<uses-permission android:name="com.lge.launcher3.permission.WRITE_SETTINGS" />
+	<uses-permission android:name="com.lge.launcher3.permission.RECEIVE_LAUNCH_BROADCASTS" />
+	<uses-permission android:name="com.lge.launcher3.permission.RECEIVE_FIRST_LOAD_BROADCAST" />
+	<uses-permission android:name="com.lge.permission.GO_SLEEP_FORCE" />
+	<uses-permission android:name="android.permission.DELETE_PACKAGES" />
+	<uses-permission android:name="android.permission.CHANGE_COMPONENT_ENABLED_STATE" />
+	<uses-permission android:name="android.permission.READ_PRIVILEGED_PHONE_STATE" />
+	<uses-permission android:name="android.permission.READ_SEARCH_INDEXABLES" />
+	<uses-permission android:name="com.android.email.permission.ACCESS_PROVIDER" />
+	<uses-permission android:name="com.lge.email.permission.READ_EMAIL" />
+	<uses-permission android:name="com.lge.email.permission.ACCESS_PROVIDER" />
+	<uses-permission android:name="android.permission.WRITE_MEDIA_STORAGE" />
+	<uses-permission android:name="android.permission.READ_MEDIA_STORAGE" />
+	<uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+	<uses-permission android:name="com.lge.permission.LGPOWER_MANAGER_HELPER" />
+	<uses-permission android:name="android.permission.CHANGE_CONFIGURATION" />
+	<uses-permission android:name="android.permission.SET_PREFERRED_APPLICATIONS" />
+	<uses-permission android:name="android.permission.WAKE_LOCK" />
+	<uses-permission android:name="com.lge.permission.MANAGE_PERMISSIONS" />
+	<uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+	<application android:allowBackup="@bool/enable_backup" android:backupAgent="com.android.launcher3.LauncherBackupAgentHelper" android:debuggable="false" android:hardwareAccelerated="true" android:icon="@mipmap/ic_launcher_home" android:label="@string/application_name" android:largeHeap="@bool/config_largeHeap" android:restoreAnyVersion="true" android:supportsRtl="true">
+		<meta-data android:name="LGBackup.Support" android:value="true" />
+		<meta-data android:name="LGBackup.DefaultBackupSize" android:value="0" />
+		<meta-data android:name="LGBackup.SizeUpdate" android:value="content://com.lge.launcher3.BackupSizeUpdateProvider" />
+		<meta-data android:name="com.lge.homeselector.descriptionString" android:value="android.resource://com.lge.launcher3/string/sp_menuless_launcher_description_NORMAL" />
+		<meta-data android:name="com.lge.settings.fragment" android:value="com.lge.launcher3.homesettings.HomescreenSettingsFragment" />
+		<meta-data android:name="com.lge.settings.fragment1" android:value="com.lge.launcher3.help.HelpFragment" />
+		<uses-library android:name="com.lge.mdm" android:required="false" />
+		<activity android:clearTaskOnLaunch="true" android:enabled="true" android:excludeFromRecents="true" android:launchMode="singleTask" android:name="com.lge.launcher3.LauncherExtension" android:resumeWhilePausing="true" android:screenOrientation="nosensor" android:stateNotNeeded="true" android:taskAffinity="" android:theme="@style/Theme" android:windowSoftInputMode="adjustPan">
+			<intent-filter>
+				<action android:name="android.intent.action.MAIN" />
+				<category android:name="android.intent.category.HOME" />
+				<category android:name="android.intent.category.DEFAULT" />
+				<category android:name="android.intent.category.MONKEY" />
+			</intent-filter>
+			<intent-filter>
+				<action android:name="com.lge.launcher3.intent.action.START_DEFAULT_HOME" />
+				<category android:name="android.intent.category.DEFAULT" />
+			</intent-filter>
+		</activity>
+		<activity android:name="com.lge.launcher3.phoenix.ProcessPhoenix" android:process=":phoenix" android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+		<activity android:enabled="@bool/debug_memory_enabled" android:icon="@mipmap/ic_launcher_home" android:label="@string/toggle_weight_watcher" android:name="com.android.launcher3.ToggleWeightWatcher">
+			<intent-filter>
+				<action android:name="android.intent.action.MAIN" />
+				<category android:name="android.intent.category.DEFAULT" />
+				<category android:name="android.intent.category.LAUNCHER" />
+			</intent-filter>
+		</activity>
+		<activity android:configChanges="orientation|screenSize" android:icon="@mipmap/ic_launcher_wallpaper" android:label="@string/sp_pick_wallpaper_gallery" android:name="com.lge.launcher3.wallpaperpicker.WallpaperChooserActivity" android:process=":wallpaper_chooser">
+			<intent-filter>
+				<action android:name="android.intent.action.SET_WALLPAPER" />
+				<category android:name="android.intent.category.DEFAULT" />
+			</intent-filter>
+		</activity>
+		<activity android:autoRemoveFromRecents="true" android:label="@string/settings_button_text" android:name="com.android.launcher3.SettingsActivity" android:process=":settings_process" />
+		<activity android:configChanges="keyboardHidden|orientation|screenSize" android:excludeFromRecents="true" android:exported="true" android:icon="@mipmap/ic_homescreen_uninstall_shortcut" android:label="@string/editmode_uninstalled_title" android:name="com.lge.launcher3.recentuninstall.RUActivity" android:noHistory="true" android:screenOrientation="user" android:taskAffinity="" android:theme="@style/Animation.Activity.Custom">
+			<intent-filter>
+				<action android:name="com.lge.launcher3.intent.action.SHOW_RECENTLY_UNINSTALLED_LIST" />
+				<category android:name="android.intent.category.DEFAULT" />
+			</intent-filter>
+		</activity>
+		<activity android:enabled="false" android:exported="false" android:name="com.lge.launcher3.recentuninstall.RUCreateShortcut" />
+		<activity-alias android:enabled="false" android:exported="false" android:icon="@mipmap/ic_homescreen_uninstall_shortcut" android:label="@string/editmode_uninstalled_title" android:name=".CreateShortcuts" android:targetActivity="com.lge.launcher3.recentuninstall.RUCreateShortcut">
+			<intent-filter>
+				<action android:name="android.intent.action.CREATE_SHORTCUT" />
+				<category android:name="android.intent.category.DEFAULT" />
+			</intent-filter>
+		</activity-alias>
+		<activity android:configChanges="keyboardHidden|orientation|screenSize" android:exported="true" android:icon="@mipmap/ic_launcher_home" android:label="@string/sp_homescreen_category_NORMAL" android:name="com.lge.launcher3.homesettings.HomeSettingsPrefActivity" android:screenOrientation="user" android:theme="@style/Animation.Activity.Custom">
+			<intent-filter>
+				<action android:name="com.lge.launcher3.intent.action.SHOW_SETTING" />
+				<category android:name="android.intent.category.DEFAULT" />
+			</intent-filter>
+			<meta-data android:name="com.lge.themeicon.handle_configchange" android:value="true" />
+			<meta-data android:name="com.android.settings.PRIMARY_PROFILE_CONTROLLED" android:value="true" />
+		</activity>
+		<activity android:configChanges="keyboardHidden|orientation|screenSize" android:excludeFromRecents="true" android:name="com.lge.launcher3.droptarget.UninstallerActivity" android:noHistory="true" android:permission="com.lge.launcher3.permission.DELETE_DIALOG" android:theme="@style/AlertDialogActivity">
+			<intent-filter android:priority="1">
+				<action android:name="com.lge.launcher3.intent.action.SHOW_DELETE_DIALOG" />
+				<category android:name="android.intent.category.DEFAULT" />
+				<data android:scheme="package" />
+			</intent-filter>
+		</activity>
+		<activity android:configChanges="keyboardHidden|orientation|screenSize" android:excludeFromRecents="true" android:name="com.lge.launcher3.droptarget.ReinstallerActivity" android:noHistory="true" android:theme="@style/AlertDialogActivity">
+			<intent-filter>
+				<action android:name="com.lge.launcher3.intent.action.SHOW_REINSTALL_DIALOG" />
+				<category android:name="android.intent.category.DEFAULT" />
+			</intent-filter>
+		</activity>
+		<activity android:configChanges="keyboardHidden|orientation|screenSize" android:excludeFromRecents="true" android:name="com.lge.launcher3.droptarget.DisableActivity" android:noHistory="true" android:theme="@style/AlertDialogActivity">
+			<intent-filter android:priority="1">
+				<action android:name="com.lge.launcher3.intent.action.SHOW_DISABLE_DIALOG" />
+				<category android:name="android.intent.category.DEFAULT" />
+				<data android:scheme="package" />
+			</intent-filter>
+		</activity>
+		<activity android:enabled="@bool/debug_memory_enabled" android:excludeFromRecents="true" android:icon="@mipmap/ic_launcher_home" android:label="@string/debug_memory_activity" android:name="com.android.launcher3.MemoryDumpActivity" android:theme="@android:style/Theme.NoDisplay">
+			<intent-filter>
+				<action android:name="android.intent.action.MAIN" />
+				<category android:name="android.intent.category.DEFAULT" />
+				<category android:name="android.intent.category.LAUNCHER" />
+			</intent-filter>
+		</activity>
+		<activity android:excludeFromRecents="true" android:name="com.lge.launcher3.debug.LGHiddenMenuActivity" android:noHistory="true" android:screenOrientation="portrait" />
+		<activity android:configChanges="keyboard|keyboardHidden|orientation|screenSize" android:excludeFromRecents="true" android:hardwareAccelerated="@bool/config_hardwareAccelerated" android:label="@string/sp_option_theme_NORMAL" android:name="com.lge.launcher3.theme.LGThemeChooserActivity">
+			<meta-data android:name="com.lge.themeicon.handle_configchange" android:value="true" />
+		</activity>
+		<activity android:configChanges="keyboard|keyboardHidden|orientation|screenSize" android:excludeFromRecents="true" android:hardwareAccelerated="@bool/config_hardwareAccelerated" android:label="@string/sp_option_theme_NORMAL" android:name="com.lge.launcher3.theme.LGThemeDetailActivity">
+			<meta-data android:name="com.lge.themeicon.handle_configchange" android:value="true" />
+		</activity>
+		<activity android:label="@string/sp_iconchange_title" android:name="com.lge.launcher3.iconchange.IconChangeActivity" />
+		<activity android:configChanges="keyboardHidden|orientation|screenSize" android:name="com.lge.launcher3.iconchange.IconChangeCreatePhotoIconActivity" />
+		<activity android:excludeFromRecents="true" android:label="@string/hide_apps_activity_title" android:name="com.lge.launcher3.hideapps.HideAppsSettingActivity" android:theme="@style/Animation.Activity.Custom" />
+		<activity android:excludeFromRecents="true" android:label="@string/sp_folderplus_title" android:name="com.lge.launcher3.folderplus.FolderPlusActivity" android:theme="@style/Animation.Activity.Custom" />
+		<service android:enabled="true" android:name="com.android.launcher3.MemoryTracker" />
+		<receiver android:name="com.android.launcher3.WallpaperChangedReceiver">
+			<intent-filter>
+				<action android:name="android.intent.action.WALLPAPER_CHANGED" />
+			</intent-filter>
+		</receiver>
+		<receiver android:name="com.android.launcher3.InstallShortcutReceiver" android:permission="com.android.launcher.permission.INSTALL_SHORTCUT">
+			<intent-filter>
+				<action android:name="com.android.launcher.action.INSTALL_SHORTCUT" />
+			</intent-filter>
+		</receiver>
+		<receiver android:name="com.android.launcher3.AppWidgetsRestoredReceiver">
+			<intent-filter>
+				<action android:name="android.appwidget.action.APPWIDGET_HOST_RESTORED" />
+			</intent-filter>
+		</receiver>
+		<receiver android:name="com.android.launcher3.StartupReceiver">
+			<intent-filter>
+				<action android:name="android.intent.action.BOOT_COMPLETED" />
+			</intent-filter>
+		</receiver>
+		<receiver android:name="com.lge.launcher3.receiver.PreferActivityChangeReciever">
+			<intent-filter>
+				<action android:name="com.lge.android.intent.action.PREFERRED_ACTIVITY_CHANGED" />
+			</intent-filter>
+		</receiver>
+		<receiver android:name="com.lge.launcher3.receiver.PendingIntentInactiveReceiver">
+			<intent-filter>
+				<action android:name="com.lge.appbox.bootinstall.completed" />
+				<action android:name="com.lge.android.owb.OWB_RELOAD" />
+				<action android:name="android.intent.action.SIM_STATE_CHANGED" />
+				<action android:name="com.lge.launcher.SKT_PHONE_MODE_RELOAD" />
+				<action android:name="@string/action_kill_process" />
+				<action android:name="com.lge.launcher2.RELOAD_WORKSPACE" />
+			</intent-filter>
+		</receiver>
+		<receiver android:name="com.lge.launcher3.CustChangeReceiver">
+			<intent-filter>
+				<action android:name="com.lge.action.CUST_CHANGED_INFO" />
+			</intent-filter>
+		</receiver>
+		<provider android:authorities="com.lge.launcher3.settings" android:exported="true" android:name="com.android.launcher3.LauncherProvider" android:readPermission="com.lge.launcher3.permission.READ_SETTINGS" android:writePermission="com.lge.launcher3.permission.WRITE_SETTINGS" />
+		<provider android:authorities="com.lge.launcher3.HomeSearchIndexablesProvider" android:exported="true" android:grantUriPermissions="true" android:multiprocess="false" android:name="com.lge.launcher3.homesettings.HomeSearchIndexablesProvider" android:permission="android.permission.READ_SEARCH_INDEXABLES">
+			<intent-filter>
+				<action android:name="android.content.action.SEARCH_INDEXABLES_PROVIDER" />
+			</intent-filter>
+		</provider>
+		<provider android:authorities="com.lge.launcer3.wallpaperpicker.autority" android:exported="false" android:name="com.lge.launcher3.wallpaperpicker.utils.WallpaperValueCheckProvider" />
+		<meta-data android:name="android.nfc.disable_beam_default" android:value="true" />
+		<activity android:exported="true" android:hardwareAccelerated="@bool/config_hardwareAccelerated" android:label="@string/smartbulletin" android:launchMode="singleTask" android:name="com.lge.launcher3.smartbulletin.setting.SBSettingListActivity" android:screenOrientation="user" android:taskAffinity="com.lge.launcher3.smartbulletin" android:theme="@style/Animation.Activity.Custom">
+			<intent-filter>
+				<action android:name="com.lge.launcher3.intent.action.SHOW_SBSetting" />
+				<category android:name="android.intent.category.DEFAULT" />
+			</intent-filter>
+		</activity>
+		<provider android:authorities="com.lge.launcher3.smartbulletin" android:name="com.lge.launcher3.smartbulletin.provider.SBProvider" />
+		<receiver android:name="com.lge.launcher3.backuprestore.LGBackupBroadcastReceiver">
+			<intent-filter>
+				<action android:name="com.lge.bnr.intent.action.REQUEST_HOME_BACKUP" />
+				<action android:name="com.lge.bnr.intent.action.REQUEST_HOME_RESTORE" />
+				<action android:name="com.lge.bnr.intent.action.REQUEST_LGHOME" />
+				<action android:name="com.lge.bnr.intent.action.QUERY" />
+			</intent-filter>
+		</receiver>
+		<provider android:authorities="com.lge.launcher3.BackupSizeUpdateProvider" android:exported="true" android:name="com.lge.launcher3.backuprestore.BackupSizeUpdateProvider" />
+		<service android:name="com.lge.launcher3.backuprestore.LGBackupRestoreService" />
+		<receiver android:name="com.lge.launcher3.theme.LGThemeReceiver">
+			<intent-filter>
+				<action android:name="android.intent.action.PACKAGE_REMOVED" />
+				<data android:scheme="package" />
+			</intent-filter>
+			<intent-filter>
+				<action android:name="com.lge.launcher2.intent.action.ENTER_THEME" />
+			</intent-filter>
+		</receiver>
+		<receiver android:name="com.lge.launcher3.badge.appnotifier.AppNotifierReceiver">
+			<intent-filter>
+				<action android:name="lge.intent.action.UNREAD_EMAILS" />
+				<action android:name="com.lge.email.action.ACCOUNT_CHANGED" />
+				<action android:name="lge.intent.action.MISSED_CALLS" />
+				<action android:name="lge.intent.action.UNREAD_MESSAGES" />
+				<action android:name="android.intent.action.BADGE_COUNT_UPDATE" />
+				<action android:name="com.lge.launcher.intent.action.BADGE_COUNT_UPDATE" />
+				<action android:name="com.lge.vvm.NEW_VVM_NOTIFICATION_RECEIVED" />
+				<action android:name="android.intent.action.TSTORE_COUNT_UPDATE" />
+				<action android:name="com.coremobility.app.vnotes.intent.action.MESSAGE_COUNT_CHANGED" />
+				<action android:name="com.verizon.ACTION_CHANGE_BADGE" />
+			</intent-filter>
+			<intent-filter>
+				<action android:name="android.intent.action.PACKAGE_DATA_CLEARED" />
+				<data android:scheme="package" />
+			</intent-filter>
+		</receiver>
+		<activity android:hardwareAccelerated="@bool/config_hardwareAccelerated" android:name="com.lge.launcher3.initialguide.InitialGuideActivity" android:theme="@style/Theme.InitialGuide" />
+		<activity android:configChanges="keyboardHidden|orientation|screenSize" android:hardwareAccelerated="@bool/config_hardwareAccelerated" android:icon="@mipmap/ic_launcher_home" android:label="@string/menu_help" android:name="com.lge.launcher3.help.HelpActivity" android:screenOrientation="user" android:theme="@android:style/Theme.Translucent">
+			<intent-filter>
+				<action android:name="com.lge.launcher3.intent.action.SHOW_HELP" />
+				<category android:name="android.intent.category.DEFAULT" />
+			</intent-filter>
+		</activity>
+		<receiver android:name=".receiver.ResetSettingReceiver">
+			<intent-filter>
+				<action android:name="lge.settings.intent.action.RESET_SETTING" />
+			</intent-filter>
+		</receiver>
+		<receiver android:name="com.lge.launcher3.recentuninstall.service.ScheduleManager">
+			<intent-filter>
+				<action android:name="android.intent.action.BOOT_COMPLETED" />
+				<action android:name="com.lge.android.intent.action.PREFERRED_ACTIVITY_CHANGED" />
+				<action android:name="com.lge.launcher3.intent.action.LAUNCHER_RESUMED" />
+			</intent-filter>
+		</receiver>
+		<receiver android:name="com.lge.launcher3.recentuninstall.service.AlarmReceiver" />
+		<service android:name="com.lge.launcher3.recentuninstall.service.UninstallAppsService" />
+		<activity android:configChanges="keyboardHidden|orientation|screenSize" android:excludeFromRecents="true" android:exported="false" android:name="com.lge.app.permissions.RequestPermissionsActivity" android:screenOrientation="user" android:theme="@style/AlertDialogActivity" />
+		<receiver android:enabled="true" android:exported="true" android:name="com.lge.launcher3.receiver.CustomizeAppIconReceiver" android:permission="com.lge.launcher.permission.CUSTOMIZE_APPICONS2">
+			<intent-filter>
+				<action android:name="com.lge.launcher.action.CUSTOMIZE_APPICONS" />
+			</intent-filter>
+		</receiver>
+		<activity android:configChanges="keyboardHidden|orientation|screenSize" android:label="@string/wallpaper_instructions" android:name="com.lge.launcher3.wallpaperlist.WallpaperListActivity">
+			<intent-filter>
+				<action android:name="com.lge.launcher3.intent.action.SHOW_WALLPAPER_LIST_ACTIVITY" />
+				<category android:name="android.intent.category.DEFAULT" />
+			</intent-filter>
+		</activity>
+	</application>
+</manifest>

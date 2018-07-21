@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<com.lge.launcher3.widgettray.LGWidgetCell xmlns:android="http://schemas.android.com/apk/res/android" xmlns:launcher="http://schemas.android.com/apk/res-auto" android:orientation="vertical" android:paddingBottom="@dimen/widget_section_vertical_padding" android:layout_width="wrap_content" android:layout_height="wrap_content" android:paddingStart="@dimen/widget_section_horizontal_padding" android:paddingEnd="@dimen/widget_section_horizontal_padding">
+	<TextView android:layout_gravity="start" android:id="@id/widget_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" style="@style/GroupWidgetItem" />
+	<TextView android:layout_gravity="start" android:id="@id/widget_dims" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/GroupWidgetItem" />
+	<FrameLayout android:gravity="start" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="@dimen/widget_preview_padding">
+		<com.lge.launcher3.widgettray.WidgetsImageView android:id="@id/widget_preview" android:layout_width="wrap_content" android:layout_height="@dimen/group_widget_preview_height" android:layout_marginTop="@dimen/widget_preview_padding" />
+		<TextView android:layout_gravity="end|bottom|center" android:id="@id/widget_preview_debug_text" android:background="#6600ffff" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+	</FrameLayout>
+</com.lge.launcher3.widgettray.LGWidgetCell>

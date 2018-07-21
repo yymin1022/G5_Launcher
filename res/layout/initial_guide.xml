@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:fitsSystemWindows="true" android:layout_width="fill_parent" android:layout_height="fill_parent">
+	<LinearLayout android:layout_gravity="top" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="1.0">
+		<android.support.v4.view.ViewPager android:orientation="vertical" android:id="@id/initial_guide_page" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+	</LinearLayout>
+	<LinearLayout android:layout_gravity="bottom" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="0.0" android:layoutDirection="ltr">
+		<LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/initial_guide_page_indicator" android:layout_width="fill_parent" android:layout_height="@dimen/initial_guide_page_indicator_height" />
+		<ImageView android:layout_width="fill_parent" android:layout_height="wrap_content" android:src="?android:dividerHorizontal" android:scaleType="fitXY" />
+		<LinearLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:measureWithLargestChild="true" style="?android:attr/buttonBarStyle">
+			<Button android:layout_gravity="start|center" android:id="@id/initial_guide_prev_button" android:layout_width="wrap_content" android:layout_height="fill_parent" android:text="@string/sp_previous_action_NORMAL" style="?android:attr/buttonBarButtonStyle" />
+			<Space android:visibility="invisible" android:layout_width="0.0dip" android:layout_height="0.0dip" android:layout_weight="1.0" />
+			<Button android:layout_gravity="end|center" android:id="@id/initial_guide_next_button" android:layout_width="wrap_content" android:layout_height="fill_parent" android:text="@string/sp_next_action_NORMAL" style="?android:attr/buttonBarButtonStyle" />
+		</LinearLayout>
+	</LinearLayout>
+</LinearLayout>

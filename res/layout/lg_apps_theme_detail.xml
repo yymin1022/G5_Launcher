@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:id="@id/lg_apps_theme_detail" android:background="@color/lg_multiselector_background_color" android:fitsSystemWindows="true" android:layout_width="fill_parent" android:layout_height="fill_parent">
+	<LinearLayout android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0">
+		<ImageView android:id="@id/theme_preview_detail" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="10.0dip" android:layout_marginBottom="20.0dip" android:scaleType="fitCenter" android:contentDescription="@string/sp_preview_NORMAL" />
+	</LinearLayout>
+	<LinearLayout android:layout_width="fill_parent" android:layout_height="@dimen/theme_button_height" android:layout_marginStart="@dimen/theme_button_layout_margin_start_end" android:layout_marginEnd="@dimen/theme_button_layout_margin_start_end">
+		<Button android:id="@id/theme_cancel_button_detail" android:layout_width="@dimen/theme_button_default_weight" android:layout_height="fill_parent" android:text="@string/cancel_action" android:layout_weight="1.0" style="@style/DefaultButton" />
+		<Space android:visibility="invisible" android:layout_width="@dimen/theme_button_space_height_second" android:layout_height="fill_parent" />
+		<Button android:id="@id/theme_select_button" android:layout_width="@dimen/theme_button_default_weight" android:layout_height="fill_parent" android:text="@string/sp_theme_apply_NORMAL" android:layout_weight="1.0" style="@style/DefaultButton" />
+	</LinearLayout>
+	<Space android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="@dimen/theme_button_space_height" />
+</LinearLayout>
