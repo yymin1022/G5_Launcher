@@ -33,3 +33,9 @@
 > 유용민(성보고등학교 2016년 입학생)
 
 > Yongmin Yoo (KR Sungbo High School - Entered 2016)
+
+## 개발기간 / Developed Date
+
+> 2018년 6월
+
+> June 2018
